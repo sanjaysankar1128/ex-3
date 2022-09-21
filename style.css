@@ -1,0 +1,100 @@
+.badge-marketing {
+    padding: 0.5em 1em;
+    margin-top: 50px;
+}
+
+.text-primary {
+    color: #0061f2 !important;
+}
+
+.badge-primary-soft {
+    color: #1f2d41;
+    background-color: #bfd6f8;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.35rem;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.img{
+    position: relative;
+    border-radius: 7px;
+}
+.para{
+    position: absolute;
+    top: 50%;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 15px;
+}
+.btn{
+    color: rgb(54, 21, 243);
+}
+.first{
+    float: right;
+    margin-top: -400px;
+    margin-right: 135px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.second{
+    float: right;
+    margin-top: -400px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+@media (min-width: 992px) {
+    #mainNav {
+      transition: background-color 0.2s;
+      transform: translate3d(0, 0, 0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+  
+    #mainNav.is-fixed {
+      position: fixed;
+      top: -83px;
+      transition: transform 0.2s;
+      border-bottom: 1px solid white;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+  
+    #mainNav.is-fixed .navbar-brand {
+      color: #212529;
+    }
+  
+    #mainNav.is-fixed .navbar-brand:focus,
+    #mainNav.is-fixed .navbar-brand:hover {
+      color: #0085A1;
+    }
+  
+    #mainNav.is-fixed .navbar-nav>li.nav-item>a {
+      color: #212529;
+    }
+  
+    #mainNav.is-fixed .navbar-nav>li.nav-item>a:focus,
+    #mainNav.is-fixed .navbar-nav>li.nav-item>a:hover {
+      color: #0085A1;
+    }
+  
+    #mainNav.is-visible {
+      transform: translate3d(0, 100%, 0);
+    }
+  }
